@@ -140,7 +140,7 @@ img {
 
 .code {
     color: var(--main-gray);
-    transform: color 0.3s ease-out;
+    transition: color 0.3s ease-out;
 }
 
 .btn {
@@ -196,9 +196,18 @@ img {
     transition: transform 0.3s ease-in-out;
 }
 
+footer {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background-color: var(--main-gray);
+    border-top: 4px solid var(--main-red);
+}
 
-
-
+footer p {
+    margin: 2rem;
+}
 
 
 
